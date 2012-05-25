@@ -1,0 +1,30 @@
+libpwquality NEWS -- history of user-visible changes.
+
+Release 1.1.0
+
+* Fixed a memory leak when throwing PWQError exception
+* Added pkgconfig file (thanks to Matthias Classen)
+* The simplicity checks are now called before the cracklib check
+* Added enforce_for_root option to the PAM module
+* Updated translations from Transifex
+
+Release 1.0.0
+
+* Added a check for words from user's GECOS
+* Added a check for configurable words
+* Added a check for maximum consecutive characters of the same class
+* Fixed configuration file parsing (allowed '=' but not required)
+* Fixed possible leak when string setting is set
+* Project added to Transifex for localization
+
+Release 0.9.9
+
+* Release candidate for 1.0
+* Added Python bindings
+* Added user name parameter to the pwquality_check()
+* Added manpages and other documentation
+* Removed obsolete and unused difignore option
+
+Release 0.9
+
+* First prerelease
